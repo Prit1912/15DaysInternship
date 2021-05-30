@@ -36,3 +36,16 @@ Here is the output of what i learned on day3 and code is in Day3 folder
 ![Screenshot (1011)](https://user-images.githubusercontent.com/70268807/119864487-4d3f4d00-bf38-11eb-9ad7-f4b222dec3c1.png)
 ![Screenshot (1013)](https://user-images.githubusercontent.com/70268807/119864985-d48cc080-bf38-11eb-8f95-c211840965c6.png)
 ![Screenshot (1012)](https://user-images.githubusercontent.com/70268807/119864516-54665b00-bf38-11eb-8ecb-5c0672364d05.png)
+
+
+# Day 4
+
+Learned about socket.io and try to create chat application
+
+To run this on your PC first go to nodeServer folder in cmd and run npm install to install all the dependencies. Then open index.html with live server and run nodemon index.js in cmd.
+
+![Screenshot (1015)](https://user-images.githubusercontent.com/70268807/120107534-fd9e9280-c17e-11eb-9ee0-8a487f77dc09.png)
+![Screenshot (1016)](https://user-images.githubusercontent.com/70268807/120107542-03947380-c17f-11eb-927a-86e462fa7fd8.png)
+![Screenshot (1017)](https://user-images.githubusercontent.com/70268807/120107547-07c09100-c17f-11eb-86a2-6a4c3e998169.png)
+![Screenshot (1018)](https://user-images.githubusercontent.com/70268807/120107556-127b2600-c17f-11eb-8272-175a88e106d0.png)
+![Screenshot (1019)](https://user-images.githubusercontent.com/70268807/120107523-f5465780-c17e-11eb-8175-364c074a21dc.png)
