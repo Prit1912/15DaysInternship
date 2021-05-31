@@ -49,3 +49,13 @@ To run this on your PC first go to nodeServer folder in cmd and run npm install 
 ![Screenshot (1017)](https://user-images.githubusercontent.com/70268807/120107547-07c09100-c17f-11eb-86a2-6a4c3e998169.png)
 ![Screenshot (1018)](https://user-images.githubusercontent.com/70268807/120107556-127b2600-c17f-11eb-8272-175a88e106d0.png)
 ![Screenshot (1019)](https://user-images.githubusercontent.com/70268807/120107523-f5465780-c17e-11eb-8175-364c074a21dc.png)
+
+
+# Day 5
+
+Learned about Expressjs, template engines and created static website using express ejs template engine
+
+![Screenshot (1020)](https://user-images.githubusercontent.com/70268807/120217279-c222c780-c255-11eb-8a36-72bfa205d00f.png)
+![Screenshot (1021)](https://user-images.githubusercontent.com/70268807/120217269-be8f4080-c255-11eb-99ee-3bc9e04ebf4e.png)
+
+
