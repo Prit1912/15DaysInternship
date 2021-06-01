@@ -59,3 +59,23 @@ Learned about Expressjs, template engines and created static website using expre
 ![Screenshot (1021)](https://user-images.githubusercontent.com/70268807/120217269-be8f4080-c255-11eb-99ee-3bc9e04ebf4e.png)
 
 
+# Day 6
+
+Leared about Theme Integration in ExpressJS
+
+Theme Integration of admin panel
+
+![Screenshot (1023)](https://user-images.githubusercontent.com/70268807/120344695-733d6680-c317-11eb-8f16-9ad60328b5e8.png)
+![Screenshot (1024)](https://user-images.githubusercontent.com/70268807/120344702-73d5fd00-c317-11eb-8bd1-48df62b8431b.png)
+![Screenshot (1025)](https://user-images.githubusercontent.com/70268807/120344658-69b3fe80-c317-11eb-8ff2-3a1b34102c90.png)
+
+
+Theme Integration of user template
+
+
+![Screenshot (1026)](https://user-images.githubusercontent.com/70268807/120344664-6b7dc200-c317-11eb-8022-6dd08d982bd2.png)
+![Screenshot (1027)](https://user-images.githubusercontent.com/70268807/120344671-6de01c00-c317-11eb-94a9-ac74caa236b8.png)
+![Screenshot (1028)](https://user-images.githubusercontent.com/70268807/120344679-6fa9df80-c317-11eb-8fe3-a14f7ecf8bd1.png)
+
+
+
