@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>pcoint</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <%- include('loader') -%>
+      <!-- end loader -->
+      <!-- header -->
+      <%- include('menu') -%>
+      <!-- end banner -->
+      <section class="banner_main">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="text-bg">
+                     <!-- <h1>Sign Up Form</h1> -->
+    <form method="POST" action="/form_process">
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name = "fname" placeholder="Enter First Name"></td>
+        </tr>
+        <tr>
+            <td>Middle Name</td>
+            <td><input type="text" name = "mname" placeholder="Enter Middle Name"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name = "lname" placeholder="Enter Last Name"></td>
+        </tr>
+        <tr>
+            <td>College Name</td>
+            <td><input type="text" name = "cname" placeholder="Enter College Name"></td>
+        </tr>
+        <tr>
+            <td>Sem</td>
+            <td><input type="number" name = "sem" placeholder="Enter Semester"></td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td><input type="number" name = "phone" placeholder="Enter Phone Number"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name = "mail" placeholder="Enter Email"></td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name = "uname" placeholder="Enter Username"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name = "pwd" placeholder="Enter Password"></td>
+        </tr>
+        <tr>
+            <td>Re. Password</td>
+            <td><input type="password" name = "pwd1" placeholder="Enter Password again"></td>
+        </tr>
+        <tr>
+            <td><button type="submit" class="btn btn-success">Sign Up</button></td>
+        </tr>
+    </table>
+</form>
+                     <!-- <a href="#">Buy Now</a> -->
+                  </div>
+               </div>
+               <div class="col-md-7 padding_right1">
+                  <div class="text-img">
+                     <figure><img src="images/top_img.png" alt="#"/></figure>
+                     <h3>01</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>
+
