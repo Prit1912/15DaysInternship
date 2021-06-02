@@ -59,6 +59,7 @@ Learned about Expressjs, template engines and created static website using expre
 ![Screenshot (1021)](https://user-images.githubusercontent.com/70268807/120217269-be8f4080-c255-11eb-99ee-3bc9e04ebf4e.png)
 
 
+
 # Day 6
 
 Leared about Theme Integration in ExpressJS
@@ -77,5 +78,19 @@ Theme Integration of user template
 ![Screenshot (1027)](https://user-images.githubusercontent.com/70268807/120344671-6de01c00-c317-11eb-94a9-ac74caa236b8.png)
 ![Screenshot (1028)](https://user-images.githubusercontent.com/70268807/120344679-6fa9df80-c317-11eb-8fe3-a14f7ecf8bd1.png)
 
+
+
+
+# Day 7
+
+
+Learned about controllers in express, fetching & displaying data from form and integraton of form in theme.
+
+
+![Screenshot (1031)](https://user-images.githubusercontent.com/70268807/120498852-2f149980-c3dd-11eb-92f3-887440f7f752.png)
+![Screenshot (1029)](https://user-images.githubusercontent.com/70268807/120498848-2de36c80-c3dd-11eb-8a02-d90d9074667c.png)
+![Screenshot (1032)](https://user-images.githubusercontent.com/70268807/120498676-08eef980-c3dd-11eb-82f3-b94bbebdadb6.png)
+![Screenshot (1033)](https://user-images.githubusercontent.com/70268807/120498684-0ab8bd00-c3dd-11eb-9dae-1be3966e7eeb.png)
+![Screenshot (1034)](https://user-images.githubusercontent.com/70268807/120498784-202de700-c3dd-11eb-8c82-97bbd62c564d.png)
 
 
