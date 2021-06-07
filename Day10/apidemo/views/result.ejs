@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% if(tb_rows_arr.length > 0){ %>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Detail</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>   
+        <% for(var i = 0; i<tb_rows_arr.length;i++){ %>
+            <tr>
+                <td><%= tb_rows_arr[i].product_id %></td>
+                <td><%= tb_rows_arr[i].product_name %></td>
+                <td><%= tb_rows_arr[i].product_detail %></td>
+                <td><%= tb_rows_arr[i].product_price %></td>
+                <td><a href="/edit/<%= tb_rows_arr[i].product_id %>">Edit</a> | <a href="/delete/<%= tb_rows_arr[i].product_id %>">Delete</a></td>
+            </tr>
+            <%}%>
+
+    </table>
+       
+
+    
+    
+        <%}else{%>
+    no records found
+            <%}%>
+
+    
+</body>
+</html>
