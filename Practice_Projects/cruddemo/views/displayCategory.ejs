@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Category</title>
+</head>
+<body>
+    <% if(tb_rows_arr.length > 0){ %>
+        <table border="1">
+            <tr>
+                <th>Category_ID</th>
+                <th>Category_Name</th>
+                <th>Action</th>
+            </tr>
+
+            <% for(var i = 0;i<tb_rows_arr.length;i++){ %>
+                <tr>
+                    <td><%= tb_rows_arr[i].category_id %></td>
+                    <td><%= tb_rows_arr[i].category_name %></td>  
+                    <td><a href="/table/editcategory/<%= tb_rows_arr[i].category_id %>">Edit</a> | <a href="/table/deletecategory/<%= tb_rows_arr[i].category_id %>">Delete</a></td>
+                </tr>
+                <%}%>
+
+        </table>
+        <%}%>
+    <br>
+    <a href="/table/addcategory">Add</a>
+</body>
+</html>

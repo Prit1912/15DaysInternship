@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display User</title>
+</head>
+<body>
+    <% if(tb_rows_arr.length > 0){ %>
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Mail</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Password</th>
+                <th>Action</th>
+            </tr>
+
+            <% for(var i = 0;i<tb_rows_arr.length;i++){ %>
+                <tr>
+                    <td><%= tb_rows_arr[i].user_id %></td>
+                    <td><%= tb_rows_arr[i].name %></td>  
+                    <td><%= tb_rows_arr[i].gender %></td>  
+                    <td><%= tb_rows_arr[i].email %></td>  
+                    <td><%= tb_rows_arr[i].phone %></td>  
+                    <td><%= tb_rows_arr[i].address %></td>  
+                    <td><%= tb_rows_arr[i].password%></td>  
+                    <td><a href="/table/edituser/<%= tb_rows_arr[i].user_id %>">Edit</a> | <a href="/table/deleteuser/<%= tb_rows_arr[i].user_id %>">Delete</a></td>
+                </tr>
+                <%}%>
+
+        </table>
+        <%}%>
+    <br>
+    <a href="/table/adduser">Add</a>
+</body>
+</html>

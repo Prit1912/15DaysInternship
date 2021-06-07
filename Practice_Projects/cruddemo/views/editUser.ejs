@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit User</title>
+</head>
+<body>
+    <h1>Edit User</h1>
+    <form method="POST" action="/table/editusr/<%= data[0].user_id%>">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name = "txt1" value="<%= data[0].name %>" ></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="text" name = "txt2" value="<%= data[0].gender %>" ></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name = "txt3" value="<%= data[0].email %>" ></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" name = "txt4" value="<%= data[0].phone %>" ></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name = "txt5" value="<%= data[0].address %>" ></td>
+            </tr>
+            <tr>
+                <td>Pasword</td>
+                <td><input type="password" name = "txt6" value="<%= data[0].password %>" ></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+                
+            </tr>
+        </table>
+    </form>
+    <a href="/table/displayuser">display</a>
+</body>
+</html>
