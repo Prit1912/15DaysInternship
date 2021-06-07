@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h1>Add Record</h1>
+        <form method="POST" action="/edititems/<%= data[0].product_id%>">
+            Name: <input type="text" name="txt1" value= <%= data[0].product_name%> required/>
+            Detail: <input type="text" name="txt2" value= <%= data[0].product_detail%> required/>
+            Price: <input type="text" name="txt3" value= <%= data[0].product_price%> required/>
+            <input type="submit" value="Add" />
+        </form>
+    </body>
+</html>
