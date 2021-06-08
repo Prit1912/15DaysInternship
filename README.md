@@ -94,3 +94,33 @@ Learned about controllers in express, fetching & displaying data from form and i
 ![Screenshot (1034)](https://user-images.githubusercontent.com/70268807/120498784-202de700-c3dd-11eb-8c82-97bbd62c564d.png)
 
 
+
+# Day 8
+
+Learned about connecting node js application to database and perform instret and display operation.
+
+![Screenshot (1040)](https://user-images.githubusercontent.com/70268807/121143881-1d0e7d00-c85b-11eb-9a2e-e436f88fc678.png)
+![Screenshot (1041)](https://user-images.githubusercontent.com/70268807/121143887-1da71380-c85b-11eb-8a19-1a1e80a5837a.png)
+![Screenshot (1042)](https://user-images.githubusercontent.com/70268807/121143864-1b44b980-c85b-11eb-9035-f01563147fc8.png)
+
+
+
+# Day 9
+
+Perform edit and delete operation.
+
+
+
+
+# Day 10
+
+Learned about creating api in nodejs.
+
+
+
+# Day 11 to 15
+
+Practiced CRUD operation with different tables and with and without admin theme.
+
+
+
