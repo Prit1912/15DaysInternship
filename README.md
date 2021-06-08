@@ -128,4 +128,9 @@ Practiced CRUD operation with different tables and with and without admin theme.
 Code is in the Practice_Projects folder
 
 
+![Screenshot (1044)](https://user-images.githubusercontent.com/70268807/121145742-e3d70c80-c85c-11eb-8f04-7ea1074a1661.png)
+![Screenshot (1045)](https://user-images.githubusercontent.com/70268807/121145754-e6396680-c85c-11eb-8dd9-1419ce5c4cdb.png)
+![Screenshot (1046)](https://user-images.githubusercontent.com/70268807/121145761-e8032a00-c85c-11eb-94b6-7bac2af03502.png)
+
+
 
