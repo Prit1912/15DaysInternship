@@ -125,6 +125,7 @@ Learned about creating api in nodejs.
 # Day 11 to 15
 
 Practiced CRUD operation with different tables and with and without admin theme.
+Code is in the Practice_Projects folder
 
 
 
