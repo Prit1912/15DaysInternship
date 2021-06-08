@@ -101,7 +101,7 @@ Learned about connecting node js application to database and perform instret and
 
 ![Screenshot (1040)](https://user-images.githubusercontent.com/70268807/121143881-1d0e7d00-c85b-11eb-9a2e-e436f88fc678.png)
 ![Screenshot (1041)](https://user-images.githubusercontent.com/70268807/121143887-1da71380-c85b-11eb-8a19-1a1e80a5837a.png)
-![Screenshot (1042)](https://user-images.githubusercontent.com/70268807/121143864-1b44b980-c85b-11eb-9035-f01563147fc8.png)
+
 
 
 
@@ -109,6 +109,7 @@ Learned about connecting node js application to database and perform instret and
 
 Perform edit and delete operation.
 
+![Screenshot (1042)](https://user-images.githubusercontent.com/70268807/121143864-1b44b980-c85b-11eb-9035-f01563147fc8.png)
 
 
 
